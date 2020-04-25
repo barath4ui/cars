@@ -13,7 +13,7 @@ img{
 
 /*base*/
 .appwrap{
-    max-width:768px;
+    max-width:480px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -161,4 +161,14 @@ img{
 .theme03{
     background-color: #000B98; /* For browsers that do not support gradients */
     background-image: linear-gradient(#000B98, #005B98); /* Standard syntax (must be last) */
+}
+
+
+@media (min-width: 500px) {
+    .appwrap{
+        max-width:768px;
+    }
+    .car-image{
+        max-width: 400px;
+    }
 }

@@ -14,13 +14,18 @@
   </head>
   <body>
    
-    <div class="appwrap">
+  <div class="appwrap">
     <div id="carlist">
       <div id="header" class="listheader">
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
             <input class="form-control mr-sm-2 d-none" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 icon-btn text-left" type="submit"><i class="fas fa-search"></i></button>
+            <button id="btn-search" class="btn btn-outline-success my-2 my-sm-0 icon-btn text-left btn-search" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+            <button id="btn-back" class="btn btn-outline-success my-2 my-sm-0 icon-btn text-left btn-back d-none" type="submit">
+              <i class="fas fa-chevron-left"></i>
+            </button>
           </form>
           <button class="navbar-toggler icon-btn text-right" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars">
@@ -42,7 +47,8 @@
             </ul>
           </div>
         </div>
-
+      </div>
+      <div id="details">
         <div id="cars-0" class="cars d-none d-block" >
           <ul class="no-ul">
             <li>
@@ -70,6 +76,7 @@
               </div>
             </li>
           </ul>
+
         </div>
 
         <div id="cars-1" class="cars  d-none">
@@ -161,11 +168,40 @@
             </li>
           </ul>
         </div>
-      </div>
-      
-    </div>
 
-    <div id="carDetails"></div>
+        <div id="carDetails" class="cars-details d-none">
+            <div class="cartopbar"></div>
+            <div class="details-img">
+              <img src="images/car-01.png" alt="" title="" class="img-car" />
+            </div>
+            
+            <div class="details-content">
+              <div class="car-title">Toyota FT1 <span class="car-headline"></span></div>
+              <div class="car-subtitle">The new hybrid super car</div>
+              <div class="car-price">
+                <div class="car-col">
+                  <h3>$49,990</h3>
+                  <p>starting price</p>
+                </div>
+              </div>
+              <div class="car-text">
+                <p>The global reception to the Toyota 86, as well as the FT-1 concept, proved that the public still carried a deep love for Toyota sports cars. Toyota Motor Company (TMC) in Japan, with the guidance of Akio Toyoda, confirmed that the time was right to bring back the Supra. It's one thing to create a dream concept; creating a sports car for production is an entirely different beast. Many platforms, powertrains and even exterior designs would have to be analyzed to ensure they were worthy of the Supra badge. </p>
+              </div>
+              <div class="car-spec">
+                <h3>Desgin</h3>
+                <div class="car-spec-box theme01 m-l-0" >
+                  <h5>PREMIUM</h5>
+                  <p>Design Pack</p>
+                </div>
+                <div class="car-spec-box" >
+                  <h5>PREMIUM</h5>
+                  <p>Design Pack</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 
     <!-- Optional JavaScript -->

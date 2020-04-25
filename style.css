@@ -222,11 +222,15 @@ img{
 }
 
 
+
 @media (min-width: 500px) {
     .appwrap{
         max-width:768px;
     }
     .car-image{
         max-width: 400px;
+    }
+    .appcat .no-ul li:last-child{
+        display: none;
     }
 }

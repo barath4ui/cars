@@ -13,7 +13,7 @@ img{
 
 /*base*/
 .appwrap{
-    max-width:480px;
+    max-width:768px;
     margin: 0 auto;
     background-color: #fff;
 }

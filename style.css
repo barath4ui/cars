@@ -222,6 +222,66 @@ img{
 }
 
 
+/*cars detail*/
+#details{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.cars-details {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.details-image .car-image{
+    top:0;
+    bottom: auto;
+}
+.details-img{
+    max-width: 80%;
+    margin: 10%;
+}
+.details-content{
+    padding: 30px;
+    background: #fff;
+}
+.car-text{
+    margin: 30px 0;
+}
+.car-text p{
+    margin: 0;
+}
+.car-price{
+    margin-top: 30px;
+}
+
+.car-spec-box{
+    margin-top: 20px;
+    padding: 15px;
+    color: #17212A;
+    width:140px;
+    border-radius: 15px;
+    background-color: #F0F0F0;
+    display: inline-block;
+    margin-left: 20px;
+}
+.m-l-0{
+    margin-left: 0;
+}
+.car-spec-box.theme01{
+    color: #fff;
+}
+.car-spec-box p{
+    font-size: 12px;
+    margin: 0;
+}
+.cartopbar{
+    height: 30px;
+    background: #F3F3F3!important;
+}
 
 @media (min-width: 500px) {
     .appwrap{

@@ -13,9 +13,9 @@
     underline.style.width = items[0].offsetWidth +'px';
 
     console.log(items);
-    for(let i=0; i<items.length; i++){
-        const li = items[i];
-        const car = cars[i];
+
+    for(let i=0; i<more.length; i++){
+   
         const detail = more[i];
 
         detail.addEventListener("click", function(){
@@ -27,7 +27,11 @@
 
 
         });
+    }
 
+    for(let i=0; i<items.length; i++){
+        const li = items[i];
+        const car = cars[i];
         li.addEventListener("click", function(){
 
             document.querySelector(".active").classList.remove("active");
@@ -45,8 +49,7 @@
             underline.style.left = sizeToMove + 'px';
             underline.style.width = li.offsetWidth + 'px';
 
-        }
-        );
+        });
     }
 
     

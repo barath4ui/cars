@@ -1,0 +1,164 @@
+/*common*/
+body{
+    background-color: #dadada;
+}
+.no-ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+img{
+    max-width: 100% !important;
+}
+
+/*base*/
+.appwrap{
+    max-width:480px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#header{
+    background-color: #F3F3F3!important;
+}
+#header .navbar{
+    padding: 25px;
+    padding-bottom: 0;
+    background-color: #F3F3F3!important;
+
+}
+
+/*icon-btn*/
+.icon-btn{
+    height:48px;
+    width:48px;
+    padding: 0;
+    border:0;
+    color: #000 !important;
+    font-size: 24px;
+    outline: none !important;
+}
+.icon-btn .fa-search{
+    font-size: 24px;
+}
+.icon-btn .fa-bars{
+    font-size: 31px;
+}
+.icon-btn .fa-bars{
+    position: relative;
+}
+.i-inner{
+    position: absolute;
+    height: 6px;
+    background-color: #F3F3F3!important;
+    width: 11px;
+    top: 3px;
+    left: 0;
+}
+.i-inner.i-botbar{
+    top:auto;
+    left: auto;
+    right: -1px;
+    bottom: 3px;
+}
+
+/*heading*/
+.heading{
+    padding: 30px;
+}
+.heading h1{
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/*appcat*/
+.appcat .no-ul{
+    height: 32px;
+    overflow: hidden;
+}
+.appcat .no-ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    line-height: 20px;
+    margin-left: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.appcat .no-ul li:hover{
+    color:#000;
+}
+.appcat .no-ul li:first-child{
+    margin-left: 0;
+}
+.appcat .active-li{
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/*car*/
+.cars{
+    padding:30px;
+    float: left;
+    width: 100%;
+    color:#fff;
+    background-color: #fff;
+}
+.cars ul li{
+    margin-bottom: 75px;
+}
+.car
+{
+    width: 100%;
+    height: 205px;
+    background-color: #999;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.car-title{
+    font-size: 34px;
+    font-weight: bold;
+}
+.car-headline{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    height: 3px;
+    background-color: #fff;
+    width: 20px;
+
+}
+.car-image{
+    position: absolute;
+    bottom: -50px;
+    right: -25px;
+    max-width: 80%;
+}
+.car-btn{
+    background-color: rgba(255,255,255, 0.2);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+
+/*theme*/
+.theme01{
+    background-color: #F70029; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#F70029, #B80056); /* Standard syntax (must be last) */
+}
+.theme02{
+    background-color: #12E187; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#12E187, #005B98); /* Standard syntax (must be last) */
+}
+.theme03{
+    background-color: #000B98; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#000B98, #005B98); /* Standard syntax (must be last) */
+}

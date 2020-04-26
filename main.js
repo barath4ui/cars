@@ -183,6 +183,13 @@
             let currentDetails = "carID-details-"+i;
             document.getElementById(currentDetails).classList.add("d-block");
 
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            
+            topFunction();
+
         });
     }
 

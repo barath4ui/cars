@@ -195,32 +195,81 @@ img{
 
 
 /*theme*/
-.theme01{
+.theme0{
     background-color: #F70029; /* For browsers that do not support gradients */
     background-image: linear-gradient(#F70029, #B80056); /* Standard syntax (must be last) */
     transition: 0.3s all;
 }
-.theme02{
+.theme1{
     background-color: #12E187; /* For browsers that do not support gradients */
     background-image: linear-gradient(#12E187, #005B98); /* Standard syntax (must be last) */
     transition: 0.3s all;
 }
-.theme03{
+.theme2{
     background-color: #000B98; /* For browsers that do not support gradients */
     background-image: linear-gradient(#000B98, #005B98); /* Standard syntax (must be last) */
     transition: 0.3s all;
 }
+.theme3{
+    background: #77ed99;  /* fallback for old browsers */
+    background-image: linear-gradient( #77ed99, #15af67); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 0.3s all;
+}
+.theme4{
+    background: #616161;  /* fallback for old browsers */
+    background-image: linear-gradient(#9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 0.3s all;
+}
+.theme5{
+    background-color: #fe8c00;
+    background-image: linear-gradient(#f83600,#fe8c00);
+    transition: 0.3s all;
+}
+.theme6{
+    background-color: #fe8c00;
+    background-image: linear-gradient(#f83600,#fe8c00);
+    transition: 0.3s all;
+}
+.theme7{
+    background-color: #000B98; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#000B98, #005B98); /* Standard syntax (must be last) */
+    transition: 0.3s all;
+}
+.theme8{
+    background-color: #F70029; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#F70029, #B80056); /* Standard syntax (must be last) */
+    transition: 0.3s all;
+    
+}
 
-.theme01:hover{
+
+.theme0:hover{
     background-image: linear-gradient(#B80056,#F70029); /* Standard syntax (must be last) */
 }
-.theme02:hover{
+.theme1:hover{
     background-image: linear-gradient(#005B98,#12E187); /* Standard syntax (must be last) */
 }
-.theme03:hover{
+.theme2:hover{
     background-image: linear-gradient(#005B98,#000B98); /* Standard syntax (must be last) */
 }
-
+.theme3:hover{
+    background-image: linear-gradient(#15af67,#77ed99);
+}
+.theme4:hover{
+    background-image: linear-gradient( #616161 , #9bc5c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.theme5:hover{
+    background-image: linear-gradient(#fe8c00,#f83600);
+}
+.theme6:hover{
+    background-image: linear-gradient(#fe8c00,#f83600); /* Standard syntax (must be last) */
+}
+.theme7:hover{
+    background-image: linear-gradient(#005B98,#000B98); /* Standard syntax (must be last) */
+}
+.theme8:hover{
+    background-image: linear-gradient(#B80056,#F70029);
+}
 
 /*cars detail*/
 #details{
@@ -270,9 +319,13 @@ img{
 }
 .m-l-0{
     margin-left: 0;
+    color:#fff;
 }
 .car-spec-box.theme01{
     color: #fff;
+}
+.car-spec-box h5{
+    text-transform: uppercase;
 }
 .car-spec-box p{
     font-size: 12px;
